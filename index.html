@@ -3,52 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GUNX STORE</title>
+    <title>SMKN 2 Doloksanggul</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: #2E003E; color: #FFFFFF; font-family: Arial, sans-serif;">
-
-    <!-- Heading dengan gambar -->
+<body>
+    <!-- Header -->
     <header>
-        <img src="https://files.catbox.moe/aes1k8.jpg" alt="Header Image" width="100%">
-        <h1 style="text-align: center; color: #9B4D96; font-size: 3em; padding: 20px 0;">GUNX STORE</h1>
+        <div class="logo">
+            <img src="https://files.catbox.moe/kfjju5.png" alt="Logo SMKN 2 Doloksanggul">
+        </div>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Sekolah</a></li>
+                <li><a href="#jurusan">Jurusan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Konten Utama -->
+    <main>
+        <section id="beranda" class="hero">
+            <h1>Selamat Datang di SMKN 2 Doloksanggul</h1>
+            <p>Membangun Generasi Unggul Melalui Pendidikan Vokasi</p>
+        </section>
 
-    <!-- Kata Sambutan -->
-    <section style="text-align: center; margin-top: 30px;">
-        <h2 style="color: #FFFFFF; font-size: 1.8em;">SELAMAT DATANG DI WEBSITE GUNX STORE!</h2>
-        <h3 style="text-align: center; font-zize: 1.0em;">Lihat Produk kami disini:
-    </section>
-    
-    <!-- Menu dengan 2 redirect link -->
-    <nav style="text-align: center; margin-top: 20px;">
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="display: inline; margin: 0 15px;">
-                <a href="https://linktr.ee/gunx.produk" target="_blank" style="color: #9B4D96; text-decoration: none; font-size: 1.2em;">Produk Gunx Store</a>
-            </li>
-        </ul>
-    </nav>
+        <section id="tentang" class="about fade-in">
+            <h2>Tentang Sekolah</h2>
+            <p>SMKN 2 Doloksanggul adalah sekolah menengah kejuruan yang berkomitmen untuk memberikan pendidikan berkualitas tinggi dalam berbagai bidang vokasi. Kami fokus pada pengembangan keterampilan siswa untuk menghadapi tantangan dunia kerja.</p>
+        </section>
 
-    <section style="text-align: center; margin-top: 30px;">
-       <h1 style="color: #FFFFFF; font-zize: 1.0em;">Ragu dengan kami? Cek testimoni dibawah:</h1>
-    </section>
+        <section id="jurusan" class="majors fade-in">
+            <h2>Jurusan Kami</h2>
+            <div class="major-grid">
+                <div class="major-card" onclick="window.location.href='jurusan1.html'">
+                    <img src="images/jurusan1.jpg" alt="Teknik Komputer dan Jaringan">
+                    <h3>Teknik Komputer dan Jaringan</h3>
+                    <p>Pelajari jaringan komputer, pemrograman, dan teknologi informasi.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan2.html'">
+                    <img src="images/jurusan2.jpg" alt="Teknik Elektronika Industri">
+                    <h3>Teknik Instalasi Tenaga Listrik</h3>
+                    <p>Fokus pada sistem istalasi tenaga listrik dan elektronika.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan3.html'">
+                    <img src="images/jurusan3.jpg" alt="Teknik Mesin">
+                    <h3>Teknik Mesin</h3>
+                    <p>Pelajari tentang mesin presisi, dan bhbut.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan4.html'">
+                    <img src="images/jurusan4.jpg" alt="Akuntansi">
+                    <h3>Teknik Otomotif</h3>
+                    <p>Kembangkan keterampilan seputar kendaraan.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan5.html'">
+                    <img src="images/jurusan5.jpg" alt="Administrasi Perkantoran">
+                    <h3>Desain Pemodelan dan Informasi Bangunan</h3>
+                    <p>Pelajari Desain, dan informasi seputar arsitektur dan bangunan.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan6.html'">
+                    <img src="images/jurusan6.jpg" alt="Tata Boga">
+                    <h3>Telnik Konstruksi Dan Permumahan</h3>
+                    <p>Kembangkan keterampilan Konstruksi.</p>
+                </div>
+                <div class="major-card" onclick="window.location.href='jurusan7.html'">
+                    <img src="images/jurusan7.jpg" alt="Teknik Otomotif">
+                    <h3>Teknik Audio dan Video</h3>
+                    <p>Pelajaran berfokus pada sistem audio dan video.</p>
+                </div>
+            </div>
+        </section>
 
-    <nav style="text-align: center; margin-top: 20px;">
-        <ul style="list-style-type: none; padding: 0;">
-           <li style="display: inline; margin: 0 15px;">
-                <a href="https://whatsapp.com/channel/0029Vb1GgB88kyyFK6h3oX2O" target="_blank" style="color: #9B4D96; text-decoration: none; font-size: 1.2em;">Testimoni Gunx</a>
-            </li>
-        </ul>   
-    </nav>
-    
-   <section style="text-align: center; margin-top: 30px;">
-       <h1 style="color: #FFFFFF; font-zize: 1.0em;">Terimakasih telah berkunjung, sampai jumpa kembali!!</h1>
-   </section>
-   
-    <!-- Footer dengan credit -->
-    <footer style="text-align: center; margin-top: 40px; padding: 20px; background-color: #1D0023;">
-        <p style="color: #D1A7D1;">&copy; 2025 GUNX STORE. Semua hak cipta dilindungi.</p>
+        <section id="kontak" class="contact fade-in">
+            <h2>Kontak Kami</h2>
+            <p>Alamat: Jl. Sidikkalang KM2, Doloksanggul, Sumatera Utara</p>
+            <p>Email: info@smkn2doloksanggul.sch.id</p>
+            <p>Telepon: (XXX) XXX-XXXX</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SMKN 2 Doloksanggul. All rights reserved.</p>
     </footer>
 
+    <!-- Audio -->
+    <audio id="bg-music" autoplay loop>
+        <source src="https://files.catbox.moe/mrhen6.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio.
+    </audio>
+
+    <!-- Tombol Audio -->
+    <div class="audio-control" id="audio-control">
+        <button id="play-pause-btn">⏸️</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
